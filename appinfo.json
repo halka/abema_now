@@ -3,7 +3,7 @@
     "capabilities": [
         ""
     ],
-    "companyName": "masato@rjch.info",
+    "companyName": "rw12",
     "longName": "now_abema",
     "projectType": "pebblejs",
     "resources": {
@@ -33,9 +33,14 @@
     },
     "sdkVersion": "3",
     "shortName": "now_abema",
+    "targetPlatforms": [
+        "aplite",
+        "basalt",
+        "chalk"
+    ],
     "uuid": "029173c3-b46c-4204-a083-b07e52a96b6e",
     "versionCode": 1,
-    "versionLabel": "1.0",
+    "versionLabel": "2.0",
     "watchapp": {
         "hiddenApp": false,
         "watchface": false
