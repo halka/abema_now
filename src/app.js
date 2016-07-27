@@ -42,6 +42,16 @@ ajax(
 });
    card.hide();
    resultMenu.show();
+   resultMenu.on('select', function(e){
+     var detailCard = new UI.Card({
+    title:data[e.itemIndex].title,
+    subtitle: data[e.itemIndex].channel,
+    body: data[e.itemIndex].content,
+    scrollable: true
+    });
+detailCard.show();
+     
+   });
   },
   function(error) {
     // Failure!
